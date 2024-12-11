@@ -48,7 +48,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://allesonsales.github.io/nft-preview-card-component-main/](https://allesonsales.github.io/FAQ-accordion/)
+- Live Site URL: [https://allesonsales.github.io/nft-preview-card-component-main/](https://allesonsales.github.io/interactive-rating-component/)
 
 ## Author
 
