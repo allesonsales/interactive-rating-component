@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    height: 100vh;
+    font-family: 'Overpass';
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container {
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, hsl(217, 12%, 13%), hsl(210, 13%, 12%));
+    border-radius: 15px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.description h1 {
+    margin-bottom: 20px;
+}
+
+.description p {
+    font-weight: 200;
+    line-height: 25px;
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    width: 50px;
+    height: 50px;
+    margin-bottom: 25px;
+    border-radius: 100%;
+}
+
+.ratingcontainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.btn-rate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: hsl(213, 19%, 18%);
+    color: white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition-duration: 200ms;
+    position: relative;
+    border: none;
+}
+
+.btn-rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white
+}
+
+
+.btn-rate:focus {
+    background-color: rgb(111, 110, 110);
+    color: white;
+}
+
+.submit {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    transition: color, 0.60s;
+    font-weight: 600;
+}
+
+.submit:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.submit:focus {
+    color: white;
+    background-color: red;
+}
+
+.rateagain {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 35px;
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    transition: color, 0.60s;
+    font-weight: 600;
+}
+
+.rateagain:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+.rate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, hsl(217, 12%, 13%), hsl(210, 13%, 12%));
+    border-radius: 15px;
+}
+
+.rate p:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(180, 1%, 33%);
+    padding: 15px 30px;
+    border-radius: 25px;
+    color: orange;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.rate h2 {
+    margin: 10px;
+}
+
+.hidden {
+    display: none;
+}
